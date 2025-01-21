@@ -1,5 +1,6 @@
 using FinderBE.Domain;
-using Microsoft.EntityFrameworkCore;
+using FinderBE.Helpers;
+using FinderBE.Validation;
 
 namespace FinderBE.ServiceHost;
 
@@ -24,6 +25,8 @@ public class Startup
             c.IncludeXmlComments(xmlPath);
         });
         services.AddDomain();
+        services.AddValidation();
+        services.AddHelpers();
 
     }
 

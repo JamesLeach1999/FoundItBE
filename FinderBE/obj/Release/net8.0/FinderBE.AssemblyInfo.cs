@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinderBE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c68d8600a5448a3289aca74e54dbd99ee421f3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinderBE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinderBE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,39 +1,44 @@
-﻿using FinderBE.Models;
-using MySqlConnector;
-using System.Text;
-
+﻿using FinderBE.Helpers;
+using FinderBE.Models;
+using Microsoft.Data.SqlClient;
+using Dapper;
+using System.Data;
 namespace FinderBE.Domain;
 
-public class UserGetValuesSql(IConfiguration configuration) : EstablishSqlConnection<User>(configuration), IGetValues<User>
+public class UserGetValuesSql(IDatabaseConnectionFactory<User> _sqlDbConnection, ICustomOrm<User> _customOrm) : IGetValues<User>
 {
     public async Task<List<User>> GetValues()
     {
         try
         {
-            using var sqlReturnValue = await ExecuteSqlQuery("SELECT * FROM users");
+            using var sqlConnection = _sqlDbConnection.OpenConnection();
 
-            var users = new List<User>();
+            var users = await sqlConnection.QueryAsync<User>("SELECT * FROM users");
 
-            while (await sqlReturnValue.ReadAsync())
-            {
-                var userId = new Guid(sqlReturnValue.GetString(0));
-                var username = sqlReturnValue.GetString(1);
-                var password = sqlReturnValue.GetString(2);
-                var email = sqlReturnValue.GetString(3);
-                users.Add(new User
-                {
-                    UserId = userId,
-                    Username = username,
-                    Password = password,
-                    Email = email
-                });
-            }
-
-            return users;
+            return users.ToList();
         }
-        catch (Exception ex) {
+        catch (Exception ex)
+        {
             throw new Exception("error", ex);
         }
-        
+
+    }
+
+    public async Task<User> GetValue(Guid userId)
+    {
+        try
+        {
+            var query = "SELECT * FROM users.users WHERE userId = @userId";
+
+            using var sqlConnection = _sqlDbConnection.OpenConnection();
+
+            var user = await sqlConnection.QueryAsync<User>("SELECT * FROM users.users WHERE userId = @userId", new {userId});
+
+            return user == null ? throw new Exception("No user found") : user.FirstOrDefault();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error getting single user", ex);
+        }
     }
 }

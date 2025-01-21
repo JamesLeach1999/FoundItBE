@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace FinderBE.Models;
 
 public class User
 {
-    [Required]
-    public Guid UserId { get; set; }
+    [AllowNull]
+    public Guid UserId = Guid.NewGuid();
 
     [Required]
     public string Username { get; set; }
@@ -16,7 +17,8 @@ public class User
     [Required]
     public string Email { get; set; }
 
+    [AllowNull]
     public string PhoneNumber { get; set; }
 
-    public DateTime AccountCreatedDate { get; set; }
+    public DateTime AccountCreatedDate  = DateTime.Now;
 }

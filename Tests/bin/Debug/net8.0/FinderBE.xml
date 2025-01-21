@@ -4,6 +4,24 @@
         <name>FinderBE</name>
     </assembly>
     <members>
+        <member name="M:FinderBE.Controllers.UsersController.GetUsers">
+            <summary>
+            Endpoint to get all users in the table
+            </summary>
+            <returns>List of all users</returns>
+            <response code="200">When the call is successful</response>
+            <response code="500">For any other error</response>
+        </member>
+        <member name="M:FinderBE.Controllers.UsersController.GetUser(System.Guid)">
+            <summary>
+            Endpoint to get a single user based on their ID
+            </summary>
+            <returns>List of all users</returns>
+            <response code="200">When the call is successful</response>
+            <response code="400">When the Guid format is invalid</response>
+            <response code="404">When no user with that ID is found</response>
+            <response code="500">For any other error</response>
+        </member>
         <member name="M:FinderBE.Controllers.UsersController.Get">
             <summary>
             This is a simple endpoint used for testing

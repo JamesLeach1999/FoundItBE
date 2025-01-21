@@ -3,52 +3,75 @@
   "WorkspaceRootPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\userpostvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\userpostvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\usergetvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\usergetvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\establishsqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\establishsqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\servicehost\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:servicehost\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\databaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\databaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\domainserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\domainserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\isqldbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\isqldbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\userssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\userssqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714B4ECF-B7FA-4CDB-AA4E-1B4682494E7F}|..\\Tests\\Tests.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\tests\\domain\\establishsqlconnectiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\igetvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\igetvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\usergetvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\usergetvaluessql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:controllers\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\helpers\\icustomorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:helpers\\icustomorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\icreatevalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\icreatevalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\domain\\idatabaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:domain\\idatabaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\validation\\userrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:validation\\userrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\validation\\validationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:validation\\validationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\validation\\newuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:validation\\newuserrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|c:\\users\\jadll\\source\\repos\\finderbe\\finderbe\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53420553-EB8B-40F3-864D-3F927C64C4F8}|FinderBE.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,8 +80,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 218,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,159 +92,241 @@
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstablishSqlConnection.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\EstablishSqlConnection.cs",
-              "RelativeDocumentMoniker": "Domain\\EstablishSqlConnection.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\EstablishSqlConnection.cs",
-              "RelativeToolTip": "Domain\\EstablishSqlConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:40:07.8Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISqlDbConnection.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\ISqlDbConnection.cs",
-              "RelativeDocumentMoniker": "Domain\\ISqlDbConnection.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\ISqlDbConnection.cs",
-              "RelativeToolTip": "Domain\\ISqlDbConnection.cs",
+              "DocumentIndex": 11,
+              "Title": "ICustomOrm.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Helpers\\ICustomOrm.cs",
+              "RelativeDocumentMoniker": "Helpers\\ICustomOrm.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Helpers\\ICustomOrm.cs",
+              "RelativeToolTip": "Helpers\\ICustomOrm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T18:09:19.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserGetValuesSql.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserGetValuesSql.cs",
-              "RelativeDocumentMoniker": "Domain\\UserGetValuesSql.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserGetValuesSql.cs",
-              "RelativeToolTip": "Domain\\UserGetValuesSql.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T17:35:30.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\ServiceHost\\Startup.cs",
-              "RelativeDocumentMoniker": "ServiceHost\\Startup.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\ServiceHost\\Startup.cs",
-              "RelativeToolTip": "ServiceHost\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:21:47.385Z",
+              "WhenOpened": "2025-01-07T20:06:58.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EstablishSqlConnectionTests.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Domain\\EstablishSqlConnectionTests.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\Domain\\EstablishSqlConnectionTests.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Domain\\EstablishSqlConnectionTests.cs",
+              "RelativeToolTip": "..\\Tests\\Domain\\EstablishSqlConnectionTests.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAvwCAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T20:05:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DomainServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\DomainServiceExtensions.cs",
               "RelativeDocumentMoniker": "Domain\\DomainServiceExtensions.cs",
               "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\DomainServiceExtensions.cs",
               "RelativeToolTip": "Domain\\DomainServiceExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:55:05.456Z",
+              "WhenOpened": "2025-01-07T20:03:56.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-24T12:17:04.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsersSqlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UsersSqlDbContext.cs",
-              "RelativeDocumentMoniker": "Domain\\UsersSqlDbContext.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UsersSqlDbContext.cs",
-              "RelativeToolTip": "Domain\\UsersSqlDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\DatabaseConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\DatabaseConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\DatabaseConnectionFactory.cs",
+              "RelativeToolTip": "Domain\\DatabaseConnectionFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:09:28.092Z",
+              "WhenOpened": "2025-01-07T20:00:17.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAZAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAYwHEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:10:03.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGetValues.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IGetValues.cs",
-              "RelativeDocumentMoniker": "Domain\\IGetValues.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IGetValues.cs",
-              "RelativeToolTip": "Domain\\IGetValues.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:18:23.733Z",
+              "WhenOpened": "2025-01-07T19:54:12.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\ServiceHost\\Program.cs",
-              "RelativeDocumentMoniker": "ServiceHost\\Program.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\ServiceHost\\Program.cs",
-              "RelativeToolTip": "ServiceHost\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T14:34:29.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Controllers\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "Controllers\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Controllers\\GlobalUsings.cs",
-              "RelativeToolTip": "Controllers\\GlobalUsings.cs",
+              "Title": "IGetValues.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IGetValues.cs",
+              "RelativeDocumentMoniker": "Domain\\IGetValues.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IGetValues.cs",
+              "RelativeToolTip": "Domain\\IGetValues.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:19:10.154Z",
+              "WhenOpened": "2025-01-07T19:44:24.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
+              "Title": "UserPostValuesSql.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserPostValuesSql.cs",
+              "RelativeDocumentMoniker": "Domain\\UserPostValuesSql.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserPostValuesSql.cs",
+              "RelativeToolTip": "Domain\\UserPostValuesSql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:22:53.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:14:27.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserGetValuesSql.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserGetValuesSql.cs",
+              "RelativeDocumentMoniker": "Domain\\UserGetValuesSql.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\UserGetValuesSql.cs",
+              "RelativeToolTip": "Domain\\UserGetValuesSql.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:44:56.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-28T13:34:54.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docker-compose.yaml",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\docker-compose.yaml",
+              "RelativeDocumentMoniker": "docker-compose.yaml",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\docker-compose.yaml",
+              "RelativeToolTip": "docker-compose.yaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-28T13:17:41.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICreateValues.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\ICreateValues.cs",
+              "RelativeDocumentMoniker": "Domain\\ICreateValues.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\ICreateValues.cs",
+              "RelativeToolTip": "Domain\\ICreateValues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:43:31.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-28T13:17:42.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDatabaseConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IDatabaseConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\IDatabaseConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Domain\\IDatabaseConnectionFactory.cs",
+              "RelativeToolTip": "Domain\\IDatabaseConnectionFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T13:48:24.032Z",
+              "WhenOpened": "2025-01-07T20:00:27.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\UserRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\UserRequestValidator.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\UserRequestValidator.cs",
+              "RelativeToolTip": "Validation\\UserRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:58:15.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidationServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\ValidationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Validation\\ValidationServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\ValidationServiceExtensions.cs",
+              "RelativeToolTip": "Validation\\ValidationServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:58:17.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NewUserRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\NewUserRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\NewUserRequestValidator.cs",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Validation\\NewUserRequestValidator.cs",
+              "RelativeToolTip": "Validation\\NewUserRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T19:57:19.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T19:40:40.394Z",
               "EditorCaption": ""
             }
           ]

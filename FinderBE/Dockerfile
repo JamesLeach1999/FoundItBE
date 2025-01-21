@@ -1,25 +1,28 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER app
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
+# Use the .NET 8 SDK for building the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["FinderBE.csproj", "."]
-RUN dotnet restore "./FinderBE.csproj"
-COPY . .
-WORKDIR "/src/."
-RUN dotnet build "./FinderBE.csproj" -c $BUILD_CONFIGURATION -o /app/build
-
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./FinderBE.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+ARG PASSWORD_ENV_SEEDED
+
+RUN mkdir /https
+RUN dotnet dev-certs https -ep /https/aspnetapp.pfx -p ${PASSWORD_ENV_SEEDED}
+
+# Copy project files and restore dependencies
+COPY FinderBE.csproj .
+RUN dotnet restore
+
+# Copy the entire source code and build the application
+COPY . .
+RUN dotnet build "FinderBE.csproj" -c Release -o /out
+
+# Publish the application
+RUN dotnet publish "FinderBE.csproj" -c Release -o /publish
+
+# Use the ASP.NET runtime for running the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /root/.dotnet/corefx/cryptography/x509stores/my/* /root/.dotnet/corefx/cryptography/x509stores/my/
+COPY --chmod=0755 --from=build /https/* /https/
+
+COPY --from=build /publish .
 ENTRYPOINT ["dotnet", "FinderBE.dll"]
