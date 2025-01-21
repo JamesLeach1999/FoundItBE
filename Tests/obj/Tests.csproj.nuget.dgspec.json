@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Tests.csproj": {}
+    "C:\\Users\\jadll\\source\\repos\\FoundItBE\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\FinderBE.csproj": {
+    "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\FoundItBE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\FinderBE.csproj",
-        "projectName": "FinderBE",
-        "projectPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\FinderBE.csproj",
+        "projectUniqueName": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\FoundItBE.csproj",
+        "projectName": "FoundItBE",
+        "projectPath": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\FoundItBE.csproj",
         "packagesPath": "C:\\Users\\jadll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\obj\\",
+        "outputPath": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jadll\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"
@@ -114,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Tests.csproj": {
+    "C:\\Users\\jadll\\source\\repos\\FoundItBE\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\jadll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jadll\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,8 +143,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\FinderBE.csproj": {
-                "projectPath": "C:\\Users\\jadll\\source\\repos\\FinderBE\\FinderBE\\FinderBE.csproj"
+              "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\FoundItBE.csproj": {
+                "projectPath": "C:\\Users\\jadll\\source\\repos\\FoundItBE\\FoundItBE\\FoundItBE.csproj"
               }
             }
           }
@@ -164,13 +168,21 @@
               "target": "Package",
               "version": "[4.18.1, )"
             },
-            "FluentAssertions": {
+            "Docker.DotNet": {
               "target": "Package",
-              "version": "[6.12.2, )"
+              "version": "[3.125.15, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.7.1, )"
             },
             "Microsoft.AspNetCore.Mvc.Testing": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -179,6 +191,22 @@
             "NSubstitute": {
               "target": "Package",
               "version": "[5.3.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "TestContainers.Container.Database.MySql": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
+            "Testcontainers": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Testcontainers.MySql": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
