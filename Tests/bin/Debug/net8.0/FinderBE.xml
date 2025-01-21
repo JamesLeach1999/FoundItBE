@@ -22,6 +22,15 @@
             <response code="404">When no user with that ID is found</response>
             <response code="500">For any other error</response>
         </member>
+        <member name="M:FinderBE.Controllers.UsersController.CreateUser(FinderBE.Models.User)">
+            <summary>
+            Create a user with an email, password and username
+            </summary>
+            <returns>Confirmation of a newly created user</returns>
+            <response code="201">New user successfully created with introductory message</response>
+            <response code="400">Validation error with user credentials</response>
+            <response code="500">Any other internal error</response>
+        </member>
         <member name="M:FinderBE.Controllers.UsersController.Get">
             <summary>
             This is a simple endpoint used for testing

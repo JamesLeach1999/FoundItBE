@@ -1,27 +1,30 @@
-﻿using FinderBE.Models;
-using FinderBE.ServiceHost;
+﻿using FoundItBE.Models;
+using FoundItBE.ServiceHost;
 using Microsoft.AspNetCore.Mvc.Testing;
 using System.Text.Json;
 
 namespace Tests.Controllers;
-public class UsersControllerTests : IClassFixture<WebApplicationFactory<Program>>
+public class UsersControllerTests : IClassFixture<CustomWebAppFactory>
 {
-    private readonly HttpClient _client;
+    private readonly CustomWebAppFactory _factory;
 
-    public UsersControllerTests(WebApplicationFactory<Program> factory)
+    public UsersControllerTests(CustomWebAppFactory factory)
     {
-        _client = factory.CreateClient();
+        _factory = factory;
     }
 
     [Fact]
     public async void Given_ACallToTheStubEndpoint_When_Executed_Then_StaticDataReturned()
     {
-        var response = await _client.GetAsync("/Users/TestEndpoint");
+        var client = _factory.CreateClient();
 
+        var response = await client.GetAsync("/Users/GetUsers");
         response.EnsureSuccessStatusCode();
+        Assert.NotNull(response);
+
         var jsonString = await response.Content.ReadAsStringAsync();
-        var responseJson = JsonSerializer.Deserialize<User>(jsonString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-        Assert.NotNull(responseJson.Username);
-        Console.WriteLine(responseJson);
+        var responseJson = JsonSerializer.Deserialize<List<User>>(jsonString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+        Assert.IsType<List<User>>(responseJson);
     }
 }
