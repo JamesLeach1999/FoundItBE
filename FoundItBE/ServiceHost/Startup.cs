@@ -1,6 +1,7 @@
 using FoundItBE.Domain;
 using FoundItBE.Helpers;
 using FoundItBE.Infrastructure;
+using FoundItBE.Infrastructure.InfrastructureOptions;
 using FoundItBE.Validation;
 
 namespace FoundItBE.ServiceHost;
@@ -25,6 +26,8 @@ public class Startup
             var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
             c.IncludeXmlComments(xmlPath);
         });
+        services.Configure<GmailConnectionOptions>(Configuration.GetSection(GmailConnectionOptions.GmailOptionsKey));
+
         services.AddDomain();
         services.AddValidation();
         services.AddHelpers();

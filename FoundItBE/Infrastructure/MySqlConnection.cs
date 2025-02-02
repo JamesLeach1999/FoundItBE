@@ -3,16 +3,14 @@ using System.Text;
 
 namespace FoundItBE.Infrastructure;
 
-public class DatabaseConnectionFactory<T> : IDatabaseConnectionFactory<T>
+public class MySqlConnection<T> : IDatabaseConnectionFactory<T>
 {
     private string _connectionString;
     private IConfiguration _configuration;
-    public DatabaseConnectionFactory(IConfiguration configuration)
+    public MySqlConnection(IConfiguration configuration)
     {
         _configuration = configuration;
-        //var sb = new StringBuilder();
         _connectionString = _configuration.GetConnectionString("DefaultConnection");
-        //_connectionString = sb.ToString();
     }
 
     public MySqlConnection OpenConnection()

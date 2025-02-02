@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoundItBE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6611acfd7ce65250267d01c379275c2ebc8ed69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbf09058512c10e28642b0e0321bea5034373f5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoundItBE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoundItBE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Net.Mime;
+using FoundItBE.BusinessLayer;
 
 namespace FoundItBE.Controllers;
 
@@ -132,5 +133,23 @@ public class UsersController(IGetValues<User> userDb, ICreateValues<UserRequest,
         var phone = "07777777777";
         var user = new { UserId = Guid.NewGuid(), Email = emailString, AccountCreatedDate = DateTime.Now, Password = passwordString, PhoneNumber = phone, Username = CredentialsGenerator.GenerateRandomString(6) };
         return Ok(user);
+    }
+
+    /// <summary>
+    /// This is a simple endpoint used for testing
+    /// </summary>
+    /// <returns>Static user object</returns>
+    /// <response code="200">When the call is successful</response>
+    /// <response code="500">For any other error</response>
+    [HttpGet]
+    [Route("EmailEndpoint")]
+    [Produces(MediaTypeNames.Application.Json)]
+    [ProducesResponseType(typeof(User), (int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+    public async Task<ActionResult<User>> GetEmail()
+    {
+        GmailAPIClient.ExampleEmailHit();
+
+        return Ok();
     }
 }

@@ -6,7 +6,8 @@ public static class InfrastructureDomainExtensions
 {
     public static IServiceCollection AddInstrstructure(this IServiceCollection services)
     {
-        services.AddTransient<IDatabaseConnectionFactory<User>, DatabaseConnectionFactory<User>>();
+        services.AddTransient<IDatabaseConnectionFactory<User>, MySqlConnection<User>>();
+        services.AddTransient<IEmailConnectionFactory, GmailConnection>();
         return services;
     }
 }

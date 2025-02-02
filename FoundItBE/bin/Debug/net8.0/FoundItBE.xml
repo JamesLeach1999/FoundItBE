@@ -39,5 +39,13 @@
             <response code="200">When the call is successful</response>
             <response code="500">For any other error</response>
         </member>
+        <member name="M:FoundItBE.Controllers.UsersController.GetEmail">
+            <summary>
+            This is a simple endpoint used for testing
+            </summary>
+            <returns>Static user object</returns>
+            <response code="200">When the call is successful</response>
+            <response code="500">For any other error</response>
+        </member>
     </members>
 </doc>
