@@ -1,7 +1,7 @@
 ﻿using MySqlConnector;
 using System.Text;
 
-namespace FoundItBE.Domain;
+namespace FoundItBE.Infrastructure;
 
 public class DatabaseConnectionFactory<T> : IDatabaseConnectionFactory<T>
 {

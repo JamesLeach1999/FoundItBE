@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using FoundItBE.Infrastructure;
 using FoundItBE.Models;
 using MySqlConnector;
 

@@ -6,8 +6,7 @@ using TestContainers;
 using FoundItBE.Models;
 using Testcontainers.MySql;
 using FoundItBE.Domain;
-using AutoFixture;
-using NSubstitute;
+using FoundItBE.Helpers;
 using Microsoft.Extensions.Configuration;
 using Dapper;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +14,7 @@ using Microsoft.AspNetCore.TestHost;
 using FoundItBE.Validation;
 using MySql.Data.MySqlClient;
 using System.Data;
+using FoundItBE.Infrastructure;
 
 namespace Tests;
 
@@ -68,8 +68,6 @@ public class CustomWebAppFactory : WebApplicationFactory<Program>, IAsyncLifetim
     {
         return Task.CompletedTask;
     }
-
-
 
     public IDatabaseConnectionFactory<User> MySqlDatabaseFactory(Dictionary<string, string>? testConfig = null)
     {

@@ -1,6 +1,6 @@
 ﻿using MySqlConnector;
 
-namespace FoundItBE.Domain;
+namespace FoundItBE.Infrastructure;
 
 public interface IDatabaseConnectionFactory<ModelType>
 {

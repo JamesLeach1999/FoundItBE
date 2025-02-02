@@ -3,6 +3,7 @@ using FoundItBE.Models;
 using Microsoft.Data.SqlClient;
 using Dapper;
 using System.Data;
+using FoundItBE.Infrastructure;
 namespace FoundItBE.Domain;
 
 public class UserGetValuesSql(IDatabaseConnectionFactory<User> _sqlDbConnection) : IGetValues<User>

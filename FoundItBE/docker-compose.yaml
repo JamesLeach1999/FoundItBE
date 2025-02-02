@@ -36,7 +36,7 @@ services:
       MYSQL_ROOT_PASSWORD: jadlljames
       MYSQL_PASSWORD: jadlljames
       MYSQL_USER: newuser
-      MYSQL_DATABASE: tests
+      MYSQL_DATABASE: users
     networks:
       - my-network
 

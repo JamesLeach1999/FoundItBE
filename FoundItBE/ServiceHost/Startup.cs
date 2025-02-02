@@ -1,5 +1,6 @@
 using FoundItBE.Domain;
 using FoundItBE.Helpers;
+using FoundItBE.Infrastructure;
 using FoundItBE.Validation;
 
 namespace FoundItBE.ServiceHost;
@@ -27,7 +28,7 @@ public class Startup
         services.AddDomain();
         services.AddValidation();
         services.AddHelpers();
-
+        services.AddInstrstructure();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

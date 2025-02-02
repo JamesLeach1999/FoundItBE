@@ -1,8 +1,7 @@
 ﻿using FoundItBE.Models;
 using MySqlConnector;
-
-using FoundItBE.Domain;
 using Microsoft.Extensions.Configuration;
+using FoundItBE.Infrastructure;
 
 namespace Tests.Domain;
 public class DatabaseConnectionFactoryTests : CustomWebAppFactory, IClassFixture<DatabaseFixture>

@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using System.Data;
-namespace FoundItBE.Domain;
+namespace FoundItBE.Helpers;
 public class MySqlGuidTypeHandler : SqlMapper.ITypeHandler
 {
     public void SetValue(IDbDataParameter parameter, object value)
@@ -8,7 +8,7 @@ public class MySqlGuidTypeHandler : SqlMapper.ITypeHandler
         parameter.Value = value?.ToString();
     }
 
-    public object Parse(System.Type destinationType, object value)
+    public object Parse(Type destinationType, object value)
     {
         Console.WriteLine(value.GetType().Name);
         if (value is string stringValue)
